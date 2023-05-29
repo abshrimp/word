@@ -1,3 +1,5 @@
+//1.0.0
+
 self.addEventListener('activate', function(e) {
   console.log('[ServiceWorker] Activate');
 });
