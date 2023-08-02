@@ -346,15 +346,16 @@ function pass() {
 function showans_andnext(add) {
     document.getElementById("ans_en").innerHTML = word;
     document.getElementById("ans_jp").innerHTML = jp[word][0];
-    let table = document.getElementById("table");
-    table.style = "";
+    let table = document.getElementById("table"),
+        synonym = document.getElementsByClassName("synonym")[0];
+    synonym.style = "";
     table.innerHTML = "";
     if (relative[word][0].length > 0) table.innerHTML += '<tr><th colspan="2">＜類義語＞</tr>';
     for (let i = 0; i < relative[word][0].length; i++) table.innerHTML += '<tr><td class="syn-en">' + relative[word][0][i] + '</td><td class="syn-jp">' + jp[relative[word][0][i]][0] + '</td><tr>';
     if (relative[word][1].length > 0) table.innerHTML += '<tr><th colspan="2">＜対義語＞</tr>';
     for (let i = 0; i < relative[word][1].length; i++) table.innerHTML += '<tr><td class="syn-en">' + relative[word][1][i] + '</td><td class="syn-jp">' + jp[relative[word][1][i]][0] + '</td><tr>';
-    if (table.innerHTML == "") table.style = "visibility: hidden;";
-    else document.getElementsByClassName("synonym")[0].scrollTop = 0;
+    if (table.innerHTML == "") synonym.style = "visibility: hidden;";
+    else synonym.scrollTop = 0;
 
 
     pointdiv.classList.remove("zoom-in");
