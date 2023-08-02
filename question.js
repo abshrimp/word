@@ -3035,7 +3035,7 @@ const relative = {
     ],
     "replace": [
         ["substitute", "change", "restore", "exchange", "displace"],
-        ["hold", "remove", "displace"]
+        ["hold", "remove"]
     ],
     "flat": [
         [],
