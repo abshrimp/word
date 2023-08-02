@@ -10,8 +10,11 @@ const STATIC_DATA = [
   'main.js',
   'question.js',
   'stations.js',
+  'map.js',
   'info.png',
-  'setting.png'
+  'setting.png',
+  'twitter.png',
+  'share.png'
 ];
 
 self.addEventListener('install', function(e) {
