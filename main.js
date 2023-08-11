@@ -346,6 +346,11 @@ function pass() {
 function showans_andnext(add) {
     document.getElementById("ans_en").innerHTML = word;
     document.getElementById("ans_jp").innerHTML = jp[word][0];
+    let ans_ori = document.getElementById("ans_ori");
+    if (word in origin) {
+        ans_ori.style = "";
+        ans_ori.innerHTML = origin[word];
+    } else ans_ori.style = "display: none;";
     let table = document.getElementById("table"),
         synonym = document.getElementsByClassName("synonym")[0];
     synonym.style = "";
@@ -354,7 +359,7 @@ function showans_andnext(add) {
     for (let i = 0; i < relative[word][0].length; i++) table.innerHTML += '<tr><td class="syn-en">' + relative[word][0][i] + '</td><td class="syn-jp">' + jp[relative[word][0][i]][0] + '</td><tr>';
     if (relative[word][1].length > 0) table.innerHTML += '<tr><th colspan="2">＜対義語＞</tr>';
     for (let i = 0; i < relative[word][1].length; i++) table.innerHTML += '<tr><td class="syn-en">' + relative[word][1][i] + '</td><td class="syn-jp">' + jp[relative[word][1][i]][0] + '</td><tr>';
-    if (table.innerHTML == "") synonym.style = "visibility: hidden;";
+    if (table.innerHTML == "") synonym.style = "display: none;";
     else synonym.scrollTop = 0;
 
 
