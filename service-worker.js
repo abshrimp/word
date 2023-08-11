@@ -9,6 +9,7 @@ const STATIC_DATA = [
   'style.css',
   'main.js',
   'question.js',
+  'origin.js',
   'stations.js',
   'map.js',
   'info.png',
