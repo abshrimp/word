@@ -210,7 +210,7 @@ function set_screen() {
     
     //ety表示
     loop: for (let i = ety_index[0]; i < etylist.length; i++) {
-        for (let j = (i == ety_index[0]) ? ety_index[1] : 1; j < etylist[i][1].length; j++) {
+        for (let j = (i == ety_index[0]) ? ety_index[1] : 0; j < etylist[i][1].length; j++) {
             let qList2 = parse_etylist(etylist[i][1][j]);
             if (qList2.includes(word)) {
                 ety_index = [i, j];
