@@ -152,6 +152,7 @@ let random = false;
 let autoskip = true;
 let results = {};
 let word = "";
+let ety_index = [0, 0];
 let counter = 0;
 
 window.addEventListener('focus', function () { focus = true });
@@ -208,10 +209,11 @@ function set_screen() {
     document.getElementById("history").innerText = get_result(word);
     
     //ety表示
-    loop: for (let i = 0; i < etylist.length; i++) {
-        for (let j = 0; j < etylist[i][1].length; j++) {
+    loop: for (let i = ety_index[0]; i < etylist.length; i++) {
+        for (let j = ety_index[1]; j < etylist[i][1].length; j++) {
             let qList2 = parse_etylist(etylist[i][1][j]);
             if (qList2.includes(word)) {
+                ety_index = [i, j];
                 document.getElementsByClassName("ety")[0].innerHTML = '<div class="ety-text">' + (i + 1) + " " + etylist[i][0] + '</div><div class="ety-text">' + etylist[i][1][j][0];
                 break loop;
             }
@@ -244,7 +246,7 @@ function set_qList(startword, loop = false, next = false) {
 
     //セクション
     else if (repeat === 1) {
-        for (let i = 0; i < etylist.length; i++) {
+        for (let i = ety_index[0]; i < etylist.length; i++) {
             let qList2 = parse_etylist(etylist[i]);
             if (qList2.includes(startword)) {
                 if (next) qList = parse_etylist(etylist[(i + 1) % etylist.length]);
@@ -255,8 +257,8 @@ function set_qList(startword, loop = false, next = false) {
 
     //語源
     } else if (repeat === 2) {
-        loop: for (let i = 0; i < etylist.length; i++) {
-            for (let j = 0; j < etylist[i][1].length; j++) {
+        loop: for (let i = ety_index[0]; i < etylist.length; i++) {
+            for (let j = ety_index[1]; j < etylist[i][1].length; j++) {
                 let qList2 = parse_etylist(etylist[i][1][j]);
                 if (qList2.includes(startword)) {
                     if (next) {
@@ -499,7 +501,7 @@ function show_up_2(number, index) {
             tr.setAttribute('onclick', "show_up_2(" + (number + 1) + ", [" + String(index2) + "])");
         } else {
             td.innerText = etylist2[j];
-            tr.setAttribute('onclick', 'go_out_4("' + etylist2[j] + '")');
+            tr.setAttribute('onclick', 'go_out_4("' + etylist2[j] + '", [' + String(index2) + '])');
         }
         table.appendChild(tr);
     }
@@ -538,7 +540,7 @@ function go_out_3() {
     divs.forEach(div => div.style.top = "100%");
 }
 
-function go_out_4(w) {
+function go_out_4(w, index) {
     for (let i = 1; i <= 3; i++) {
         divs = document.querySelectorAll(".move" + i);
         if (i !== 3) divs.forEach(div => div.style.transitionDuration = "0s");
@@ -547,6 +549,7 @@ function go_out_4(w) {
     }
     answer.innerText = "";
     word = w;
+    ety_index = index;
     set_qList(w);
     change_btn();
     function remove(divs) {
