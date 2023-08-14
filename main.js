@@ -209,8 +209,8 @@ function set_screen() {
     document.getElementById("history").innerText = get_result(word);
     
     //ety表示
-    loop: for (let i = ety_index[0]; i < etylist.length; i++) {
-        for (let j = (i == ety_index[0]) ? ety_index[1] : 0; j < etylist[i][1].length; j++) {
+    loop: for (let i = (repeat == 0) ? 0 : ety_index[0]; i < etylist.length; i++) {
+        for (let j = (i == ety_index[0] && repeat == 2) ? ety_index[1] : 0; j < etylist[i][1].length; j++) {
             let qList2 = parse_etylist(etylist[i][1][j]);
             if (qList2.includes(word)) {
                 ety_index = [i, j];
