@@ -5373,7 +5373,10 @@ const relative = {
         [],
         []
     ],
-    "in turn": [],
+    "in turn": [
+        [],
+        []
+    ],
     "turn": [
         ["twist", "change", "roll", "shift"],
         ["break", "continue", "remain", "calm"]
@@ -5430,7 +5433,10 @@ const relative = {
         ["contrary"],
         ["forward", "advance"]
     ],
-    "vice versa": [],
+    "vice versa": [
+        [],
+        []
+    ],
     "vertical": [
         ["upright", "erect"],
         []
@@ -9103,7 +9109,10 @@ const relative = {
         ["load"],
         []
     ],
-    "in charge of": [],
+    "in charge of": [
+        [],
+        []
+    ],
     "carriage": [
         ["transport", "vehicle"],
         []
@@ -9828,7 +9837,10 @@ const relative = {
         ["pursue", "follow"],
         ["lead"]
     ],
-    "catch up with": [],
+    "catch up with": [
+        [],
+        []
+    ],
     "escape": [
         ["flee", "evade", "run", "miss", "leak"],
         ["confront", "capture", "meet", "accept", "contract"]
@@ -10189,12 +10201,18 @@ const relative = {
         [],
         []
     ],
-    "take in": [],
+    "take in": [
+        [],
+        []
+    ],
     "tackle": [
         ["confront", "address", "treat", "apparatus", "device"],
         ["fail"]
     ],
-    "take away": [],
+    "take away": [
+        [],
+        []
+    ],
     "grab": [
         ["seize", "capture", "grasp", "fetch", "snap"],
         ["free", "release", "miss", "discharge"]
@@ -10843,7 +10861,10 @@ const relative = {
         ["dawn"],
         ["end"]
     ],
-    "put on": [],
+    "put on": [
+        [],
+        []
+    ],
     "resident": [
         ["inhabitant", "residence", "citizen"],
         ["immigrant"]
@@ -10916,7 +10937,10 @@ const relative = {
         ["remain", "break"],
         ["work", "labor", "bustle", "exercise"]
     ],
-    "rest on": [],
+    "rest on": [
+        [],
+        []
+    ],
     "exist": [
         ["occur", "survive", "remain", "lie", "arise"],
         []
@@ -11041,7 +11065,10 @@ const relative = {
         ["apprehension", "halt", "detain", "check", "seize", "restrain"],
         ["release", "free", "encourage", "promote"]
     ],
-    "for instance": [],
+    "for instance": [
+        [],
+        []
+    ],
     "instance": [
         ["occasion", "case"],
         ["long"]
