@@ -11332,32 +11332,24 @@ const etylist = [
         ["habit : 住む", ["prohibit", "inhibit", "habitat", "inhabitant", "habit", "exhibit"]],
         ["loc : 場所", ["allow", "allowance", "local", "locate", "allocate"]],
         ["pile : 柱", ["compile", "pill", "pile"]],
-        ["place, plain : 平らな場所、計画", ["replace", "flat", "displace", "plain", "explain"]],
-        ["site : 場所", ["site", "situation"]],
+        ["pla : 平らな場所、計画", ["replace", "displace", "plain", "explain"]],
         ["court : 囲まれた場所", ["court", "courtesy"]],
-        ["ary, er : 場所", ["barrier", "dairy", "endanger", "frontier", "grocery", "laundry", "litter", "laboratory", "vocabulary"]],
         ["polit : 都市", ["policy", "political", "politics", "metropolitan", "metropolis"]],
         ["urb : 都市", ["urban", "suburb"]]
     ]],
     ["人・成長", [
         ["auto : 自ら", ["automobile", "autonomy", "autonomous", "automatic"]],
         ["civil : 市民", ["citizen", "civil", "civilization"]],
-        ["democ : 民衆", ["democracy", "demographic"]],
         ["ethnic : 民族", ["ethic", "ethics", "ethnic"]],
         ["host : 見知らぬ人", ["hostile", "hostage", "hospitality"]],
         ["hum : 人間(human)", ["humane", "humanity", "humiliate", "humble", "humor", "humid"]],
-        ["idea : 姿", ["ideology", "ideal"]],
-        ["mas : 男性", ["male", "masculine"]],
         ["mater : 母(mother)", ["matter", "material", "metropolitan", "metropolis", "maternity", "amateur"]],
         ["medi : 癒す", ["medical", "medicine", "remedy", "meditation", "meditate"]],
         ["nur : 養う", ["nourish", "nurture", "nutrition", "nursing"]],
-        ["popul, publ : 人(people)", ["republic", "publish", "publicity", "population"]],
-        ["self : 自分自身", ["self", "selfish", "self-esteem", "esteem"]],
+        ["publ : 人(people)", ["republic", "publish", "publicity", "population"]],
         ["senior : 老いた", ["ambassador", "senator", "Senate", "senior"]],
         ["soci : 社会", ["society", "socialism", "associate"]],
         ["adol : 育つ、破壊する", ["adolescent", "adult", "abolish"]],
-        ["young : 若い", ["youngster", "youth"]],
-        ["fe : 女性", ["female", "feminine"]],
         ["al : 別", ["alien", "alter", "alternative", "allergy", "parallel"]],
         ["fu : 養う", ["feed", "foster"]]
     ]],
@@ -11365,7 +11357,6 @@ const etylist = [
         ["blood : 血", ["blessing", "bless", "bleed"]],
         ["cap, chief : 頭", ["achievement", "mischief", "capital", "cattle", "achieve", "chapter"]],
         ["eye : 目", ["eyebrow", "eyelid", "eyelash"]],
-        ["hand : 手", ["handle", "secondhand"]],
         ["head : 頭", ["headline", "forehead", "headquarters", "head"]],
         ["man : 手", ["demand", "command", "mandatory", "recommend", "manuscript", "maintain", "manufacture", "manual", "manage", "manner", "manifest", "manipulate"]],
         ["neur : 神経", ["nervous", "nerve", "neuron"]],
@@ -11381,13 +11372,11 @@ const etylist = [
         ["nat : 生まれる", ["native", "naive", "nationality", "nation", "nationalism", "nature", "natural", "innate"]],
         ["ori : 生まれる", ["origin", "orient", "abortion"]],
         ["physic : 自然", ["physical", "physician", "physiological"]],
-        ["plant : 植物", ["transplant", "plantation"]],
         ["spir : 生きている", ["spirit", "inspire", "expire", "respiratory", "aspiration", "aspire"]],
-        ["unda : 波", ["surround", "abundant"]],
+        ["unda : あふれる、沈没", ["surround", "abundant"]],
         ["vive, vege : 生きる", ["vigorous", "vigor", "vivid", "revive", "survive", "vital", "vegetation", "vitamin"]],
         ["radi : 根", ["radical", "radiation", "ray"]],
         ["gri : 田畑", ["agriculture", "pilgrim"]],
-        ["anim : 命(animal)", ["animate", "unanimous"]],
         ["wild : 野生の", ["wilderness", "wildlife", "bewilder"]]
     ]],
     ["地球・地面", [
@@ -11396,7 +11385,6 @@ const etylist = [
         ["cult : 耕す、住む", ["culture", "colony", "agriculture", "cultivate"]],
         ["fund : 土台", ["fund", "fond", "found", "profound", "fundamental", "foundation"]],
         ["geo : 地球", ["geography", "geometry", "geological", "geology"]],
-        ["land : 土地", ["landscape", "landmark"]],
         ["mine : 発掘", ["undermine", "mine", "mineral"]],
         ["sider : 星", ["desire", "consider", "considerable"]],
         ["terr : 土地", ["territory", "corridor"]],
@@ -11412,14 +11400,10 @@ const etylist = [
         ["stru : 建てる", ["instruction", "instruct", "instrument", "construction", "construct", "structure", "destroy", "industry"]]
     ]],
     ["熱さ・液体・気体", [
-        ["cras : 粉", ["crash", "smash"]],
-        ["dry : 乾いた", ["drought", "drain"]],
         ["flu : 流れ", ["floating", "float", "affluent", "fluent", "fluid", "influence", "flood", "flatter", "flee"]],
         ["lau, lut : 洗う", ["pollution", "pollute", "laundry"]],
         ["merge : 沈む", ["emerge", "emergency", "merge"]],
-        ["-id : 〜の状態である", ["vivid", "rapid", "liquid", "humid", "stupid", "rigid", "timid", "valid", "candidate", "fluid", "splendid", "acid", "solid"]],
         ["flam : 炎(flame)", ["inflammation", "fire", "flame"]],
-        ["aci : 酢", ["acid", "acute", "oxygen"]],
         ["leak : 漏れる", ["lack", "leak"]]
     ]],
     ["口・食べる", [
@@ -11436,9 +11420,7 @@ const etylist = [
         ["fee : 財産", ["fee", "fellow", "feudal"]]
     ]],
     ["位置・方向", [
-        ["ana : 〜の上に", ["analogy", "analysis", "analyze", "anatomy"]],
-        ["cata : 下に", ["category", "catastrophe"]],
-        ["cel : 上げる（位置を、速度を）", ["excellent", "excel", "accelerate"]],
+        ["cel : 上げる（位置、速度を）", ["excellent", "excel", "accelerate"]],
         ["dia : 横切る", ["dialogue", "dialect", "diabetes", "diameter", "diagnosis", "diagnose"]],
         ["for : 前に", ["forbid", "forgive", "former", "forehead", "forecast", "foresee", "straightforward", "forward", "therefore"]],
         ["front : 前面", ["frontier", "confront"]],
@@ -11446,7 +11428,6 @@ const etylist = [
         ["inter : 間の", ["intellectual", "intellect", "interrupt", "interfere", "enterprise", "interval", "entrepreneur", "interest", "entertain", "Internet", "interview", "intrinsic", "intersection", "intervention", "interaction", "interact", "internal", "interpret", "enter", "intimate"]],
         ["lay : 横たわる", ["lay", "layer", "lie", "litter", "log"]],
         ["med : 中間", ["immediately", "immediate", "medieval", "medium", "mean", "meanwhile", "media", "midst"]],
-        ["near : 近い", ["kidney", "nearly"]],
         ["out, ut : 外へ、十分な", ["utter", "utterly", "utmost", "outlet", "but", "throughout", "outcome", "outlook", "outbreak", "outstanding", "output"]],
         ["over : 上に", ["overall", "moreover", "overlook", "overcome", "overtake", "overnight", "overwhelming", "overwhelm"]],
         ["para : わきの", ["paradox", "paradigm", "parasite", "parallel", "paralyze", "parliament"]],
@@ -11455,26 +11436,22 @@ const etylist = [
         ["rise : 上がる", ["arise", "rise", "raise", "rear"]],
         ["side : 側面", ["aside", "besides"]],
         ["str : 外側の", ["external", "intrinsic", "extremely", "extreme", "extravagant", "extra", "extraordinary", "ordinary", "stranger"]],
-        ["sum, sur, super : 一番高い、超えて", ["superior", "supreme", "superficial", "superb", "surround", "survive", "surplus", "supervisor", "supervise", "sum", "surface", "survey", "surrender", "surpass", "summit", "superstition", "resource", "source"]],
+        ["sum, sur, super : 一番高い、超えて", ["superior", "supreme", "superficial", "superb", "surround", "survive", "surplus", "supervisor", "supervise", "sum", "surface", "survey", "surrender", "surpass", "summit", "superstition"]],
         ["trans : 横切って", ["betray", "tradition", "transmit", "transfer", "transform", "translate", "transplant", "transparent", "transcend", "transportation", "transport", "transaction", "transact", "transition"]],
         ["under : 下に", ["undertake", "undergo", "undermine", "underlying"]],
         ["ward : 向かって", ["awkward", "afterward", "straightforward", "forward", "weird"]],
         ["with : 後ろ", ["withdraw", "within", "withstand", "notwithstanding"]],
         ["al : 〜に向かって", ["alarm", "alert"]],
-        ["ob : 〜に向かって、〜に反対して", ["obvious", "oblige", "obtain", "observe", "object", "objective", "obey", "obstinate", "obsolete", "obsess", "obesity", "obese", "obstacle", "occupy", "occupation", "preoccupied", "omit", "oppose", "opponent", "offending", "offend"]],
-        ["piece : 一部分", ["masterpiece", "patch"]],
         ["prox : 近い", ["approach", "approximately", "proximity"]],
         ["be : 近くに", ["thereby", "behalf", "beneath"]],
         ["up : 上へ", ["upright", "upset", "up-to-date"]],
-        ["anti, acne : 前に", ["advantage", "ancestor", "anticipate", "advance", "ancient", "antiquity", "antique"]],
-        ["for, fur : 前へ", ["afford", "furthermore"]]
+        ["anti, acne : 前に", ["advantage", "ancestor", "anticipate", "advance", "ancient", "antiquity", "antique"]]
     ]],
     ["回転", [
         ["contra : 向きを変える", ["contrary", "encounter", "contrast", "contradict", "counterpart", "control"]],
         ["rol : 回転する、名簿", ["control", "role", "enroll", "rotate", "roll", "rotten", "rot"]],
         ["stir : ぐるぐる回す", ["stir", "storm"]],
-        ["tur : 回る(turn)", ["tourism", "in turn", "turn"]],
-        ["vert : 向きを変える", ["advertising", "advertisement", "controversial", "controversy", "diversity", "diverse", "universe", "universal", "anniversary", "verse", "version", "convert", "reverse", "vice versa", "vertical", "adverse", "divert", "divorce", "conversely"]],
+        ["vert : 向きを変える", ["advertising", "advertisement", "controversial", "controversy", "diversity", "diverse", "universe", "universal", "anniversary", "verse", "version", "convert", "reverse", "vertical", "adverse", "divert", "divorce", "conversely"]],
         ["vol : 回転する", ["involved", "involve", "volume", "evolution", "evolve", "revolution"]]
     ]],
     ["混乱させる・試す", [
@@ -11496,7 +11473,6 @@ const etylist = [
         ["ment, memo, mati : 考える、心", ["remind", "mind", "mental", "automatic", "comment", "dementia", "mention", "remember", "demonstrate", "monument", "summon"]],
         ["reason, ratio : 理由", ["birthrate", "rate", "rational", "reasonable", "reason", "ratio"]],
         ["wis : 賢い", ["witch", "wicked", "witness", "wisdom", "wit"]],
-        ["read : 解決する", ["dread", "riddle"]],
         ["psych : 心", ["psychology", "psychiatrist", "psychiatric"]],
         ["sophy : 知", ["philosophy", "sophisticated", "sophomore"]],
         ["sci : 知る", ["conscience", "conscious"]]
@@ -11512,6 +11488,7 @@ const etylist = [
         ["eas : 安らぎ(easy)", ["disease", "uneasy"]],
         ["mir : 驚く", ["marvelous", "marvel", "admire"]],
         ["path, pass : 患う", ["passion", "patient", "compassion", "sympathy", "compatible", "passive", "empathy"]],
+        ["read : 不安", ["dread", "riddle"]],
         ["sense, sent : 感じる", ["consent", "consensus", "sense", "sensitive", "sensible", "scent", "resent", "sensation", "sentence", "sentiment"]],
         ["terri : 驚かす(terror)", ["terrible", "terror", "terrific", "deter"]],
         ["trem : 震える", ["tremendous", "tremble"]],
@@ -11536,12 +11513,7 @@ const etylist = [
         ["seque, sec, sue : 続く", ["execute", "executive", "second", "secondhand", "pursue", "sue", "suit", "consequence", "sequence", "subsequent", "intrinsic"]],
         ["limi : 境界(limit)", ["eliminate", "preliminary"]],
         ["dura : 継続する", ["endure", "durable", "duration"]],
-        ["prot : 最初の", ["protein", "protocol"]],
         ["term : 終わる", ["determine", "term", "terminal"]]
-    ]],
-    ["変化", [
-        ["meta : 変化", ["metaphor", "method"]],
-        ["temper : 調節する", ["temper", "temperament", "temperature", "temperate"]]
     ]],
     ["形", [
         ["circu : 輪", ["search", "research", "circulation", "circulate", "circumstance", "encyclopedia"]],
@@ -11554,7 +11526,6 @@ const etylist = [
         ["sign : 印", ["assign", "resign", "designate", "significant", "significance", "sign"]],
         ["sphere : 球", ["atmosphere", "hemisphere", "sphere"]],
         ["type : 型", ["stereotype", "typical"]],
-        ["shape : 形", ["shape", "landscape"]],
         ["ais : 軸", ["aisle", "axis"]],
         ["sat : 十分な", ["satisfy", "asset"]]
     ]],
@@ -11592,7 +11563,6 @@ const etylist = [
         ["vac, void : 空っぽ", ["evacuate", "vacuum", "avoid", "devoid", "vacant", "vanish", "vain", "devastate", "inevitable", "vast"]],
         ["pan : 広げる", ["patent", "expand"]],
         ["all : 全て", ["altogether", "overall"]],
-        ["ga : 大きく口を開ける", ["gap", "yawn"]],
         ["thum : 膨れる", ["thumb", "tumor", "tomb", "thigh"]]
     ]],
     ["かたさ・重さ", [
@@ -11610,11 +11580,10 @@ const etylist = [
         ["short : 短い", ["shortcoming", "shortage"]],
         ["wel : 良い", ["farewell", "welfare", "wealth"]],
         ["focu : 濃い", ["focus", "fuel"]],
-        ["bene : 良い", ["benign", "benefit"]],
-        ["good : 良い", ["good", "goods"]]
+        ["bene : 良い", ["benign", "benefit"]]
     ]],
     ["程度", [
-        ["a, less : 否定", ["restless", "relentless", "ruthless", "reckless", "countless", "helpless", "regardless", "regard", "disregard", "nevertheless", "unless", "loose", "anonymous"]],
+        ["less : 否定", ["restless", "relentless", "ruthless", "reckless", "countless", "helpless", "regardless", "nevertheless", "unless"]],
         ["sure : 確実な", ["curious", "cure", "ensure", "security", "assure", "reassure", "insurance", "care", "accurate"]],
         ["heal, hol : 完全な", ["heal", "holy"]],
         ["ultra : 極端な", ["ultimate", "ultraviolet"]],
@@ -11627,8 +11596,7 @@ const etylist = [
         ["like : 自分に合う", ["likely", "like", "alike", "unlike"]],
         ["pair, para : 等しい", ["peer", "compare"]],
         ["meter, meas : 測る", ["diameter", "measure", "thermometer", "dimension", "immense", "symmetry"]],
-        ["mak : 釣り合う(match)", ["make", "match"]],
-        ["ior : 比較級", ["superior", "inferior", "deteriorate", "senior", "behavior", "behave", "prior", "priority", "major", "majority", "mayor", "minister", "minor", "administer", "administration"]]
+        ["temper : 調節する", ["temper", "temperament", "temperature", "temperate"]]
     ]],
     ["言う", [
         ["cla, cil : 叫ぶ", ["exclaim", "proclaim", "claim", "council", "reconcile"]],
@@ -11641,7 +11609,6 @@ const etylist = [
         ["rio : 叫ぶ", ["riot", "roar", "rumor"]],
         ["doc : 教える", ["document", "doctrine", "discipline", "dogma"]],
         ["fess : 言う", ["profession", "professor", "confess"]],
-        ["say : 言う", ["say", "scold"]],
         ["lingua : 言葉", ["bilingual", "linguistic"]],
         ["fant : 話す", ["fate", "fame", "infant", "prophet", "infamous"]]
     ]],
@@ -11651,8 +11618,7 @@ const etylist = [
         ["peal, pul : 駆り立てる", ["compel", "compulsory", "appeal", "expel", "repel", "impulse"]],
         ["point : 指す", ["disappoint", "appoint", "appointment", "standpoint", "point", "punctual", "viewpoint"]],
         ["rec, reg, sur : 導く", ["region", "regime", "erect", "correct", "reign", "realm", "rule", "regulate", "right", "rightly", "upright", "sort", "resource", "source", "surge", "address", "direct", "enrich", "rigid", "alert", "reckless", "reckon", "irregular", "rectangular"]],
-        ["od : 道", ["method", "period"]],
-        ["lead : 率いる", ["lead", "misleading"]]
+        ["od : 道", ["method", "period"]]
     ]],
     ["触れる・接続", [
         ["clin, lad : 寄りかかる", ["inclined", "incline", "client", "decline", "lean", "climate", "ladder"]],
@@ -11698,7 +11664,6 @@ const etylist = [
         ["flex : 曲げる", ["reflect", "flexible"]],
         ["tort : ねじる", ["torture", "distort", "torment"]],
         ["wist : ねじる", ["twist", "wrist"]],
-        ["wr : ねじる", ["worry", "worth"]],
         ["wind : 曲がりくねる", ["wander", "wind"]],
         ["carve : 彫る", ["carve", "crawl"]]
     ]],
@@ -11762,7 +11727,7 @@ const etylist = [
         ["sacr : 神聖な", ["sacrifice", "sacred", "saint", "sanction"]]
     ]],
     ["移動させる", [
-        ["car, char : 積む", ["career", "charge", "discharge", "cargo", "in charge of", "carriage"]],
+        ["car, char : 積む", ["career", "charge", "discharge", "cargo", "carriage"]],
         ["fer, fort : 運、運ぶ", ["offer", "bear", "prefer", "refer", "transfer", "fertile", "suffer", "burden", "differ", "indifferent", "fare", "farewell", "conference", "inferred", "infer", "fortune", "welfare", "birthrate"]],
         ["gest : 運ぶ", ["suggest", "digest", "register"]],
         ["mine, mount : 積み重ねる", ["amount", "mount", "menace", "prominent", "eminent"]],
@@ -11770,7 +11735,6 @@ const etylist = [
         ["nav : 船員", ["navigate", "navigation", "navy"]],
         ["port : 運ぶ、港", ["import", "transportation", "transport", "export", "reportedly", "support", "opportunity"]],
         ["pos, pone, paus : 置く", ["postpone", "posture", "compose", "impose", "oppose", "opponent", "pose", "expose", "suppose", "dispose", "positive", "purpose", "propose", "component", "compound", "deposit", "pause", "puzzle", "posterior"]],
-        ["ship : 船", ["equip", "equipment", "shipping", "skip"]],
         ["thes : 置く", ["hypothesis", "thesis", "theme", "synthetic", "synthesize"]],
         ["way, vi : 運ぶ", ["trivial", "obvious", "previous", "weight", "weigh", "vehicle", "way", "via", "voyage", "convey", "velocity"]],
         ["cue : 動かす", ["discuss", "rescue"]]
@@ -11780,7 +11744,6 @@ const etylist = [
         ["cess, cede : 進む", ["cease", "precede", "recede", "proceed", "process", "exceed", "concede", "access", "procedure", "recession", "predecessor", "professor", "ancestor", "excessive", "excess", "necessarily", "succeed"]],
         ["cour : 走る", ["current", "currency", "occur", "curriculum", "discourse", "corridor"]],
         ["gres, gra : 歩む", ["graduate", "degrade", "grade", "congress", "degree", "gradually", "gradual", "ingredient", "aggressive", "progress"]],
-        ["it, ish, rt : 行く", ["initial", "initiative", "ambition", "transition", "issue", "perish", "experiment", "expertise", "expert"]],
         ["mig, mut, mon : 移動する", ["community", "communicate", "immune", "communist", "communism", "common", "immigrant", "immigrate", "migrate", "mutual", "mutation", "commute", "emigrate"]],
         ["mov : 動く(move)", ["remove", "emotion", "move", "mobile", "automobile", "remote", "motive", "promote", "momentum"]],
         ["pete : 進む", ["compete", "competent", "appetite", "perpetual"]],
@@ -11789,13 +11752,11 @@ const etylist = [
         ["vade : 進んでいく", ["invade", "evade"]],
         ["vent : 来る", ["convenient", "convention", "intervention", "prevent", "advent", "revenue", "souvenir", "event", "eventually", "venture", "invent"]],
         ["lapse : 滑る", ["collapse", "lapse"]],
-        ["run : 走る", ["random", "run"]],
         ["come : 来る", ["income", "outcome", "overcome", "shortcoming"]]
     ]],
     ["get・keep", [
         ["amp, mpt, sume : 取る", ["assume", "resume", "consume", "presume", "presumably", "prompt"]],
-        ["bar : 借りる(borrow)", ["borrow", "bargain"]],
-        ["cap, cep, chas, ceive, cid : つかみ取る、落ちる、運", ["coincide", "incident", "perceive", "recipe", "chase", "catch up with", "capable", "escape", "case", "casual", "purchase", "chance", "occasion", "occasionally", "accept", "anticipate", "capacity", "capture", "conceive", "concept", "deceive", "except", "exception", "occupation", "preoccupied", "occupy", "participate", "reception", "receive", "susceptible", "principal", "principle", "decay", "accidentally", "accident", "cheat", "cater"]],
+        ["cap, cep, chas, ceive, cid : つかみ取る、落ちる、運", ["coincide", "incident", "perceive", "recipe", "chase", "capable", "escape", "case", "casual", "purchase", "chance", "occasion", "occasionally", "accept", "anticipate", "capacity", "capture", "conceive", "concept", "deceive", "except", "exception", "occupation", "preoccupied", "occupy", "participate", "reception", "receive", "susceptible", "principal", "principle", "decay", "accidentally", "accident", "cheat", "cater"]],
         ["clip : 集める", ["clash", "clap", "cling", "cluster", "clue"]],
         ["custom : 慣れる", ["custom", "accustomed"]],
         ["hold : 保つ", ["halt", "hold", "household"]],
@@ -11805,7 +11766,7 @@ const etylist = [
         ["quali : 質", ["qualify", "quality"]],
         ["serve : 保つ", ["conservation", "conserve", "conservative", "deserve", "service", "serve", "observe", "preserve", "reserve"]],
         ["tain, tent : 保つ、のばす", ["obtain", "detain", "sustain", "retain", "intent", "intention", "intend", "extend", "extent", "intense", "continent", "attend", "pretend", "contend", "tension", "tense", "tend", "tender", "entertain", "contain", "content", "continue", "maintain"]],
-        ["take : 手に持つ", ["intake", "take in", "undertake", "tackle", "overtake", "take away", "mistake", "mistakenly"]],
+        ["take : 手に持つ", ["intake", "undertake", "tackle", "overtake", "mistake", "mistakenly"]],
         ["grab : つかむ", ["grab", "grasp"]],
         ["use, util : 使う", ["abuse", "usage", "utilize"]],
         ["opt : 選ぶ", ["adopt", "option", "opinion"]]
@@ -11853,7 +11814,7 @@ const etylist = [
     ]],
     ["立つ・座る", [
         ["set, sess, sid : 座る", ["onset", "put on", "resident", "residence", "assess", "obsess", "seize", "upset", "settle", "subsidy", "session", "seat", "soil", "possess"]],
-        ["sta, sti, sist : 立つ", ["constant", "instantly", "substitute", "institution", "institute", "consist", "consistent", "cost", "restless", "rest", "rest on", "exist", "insist", "resist", "assist", "stable", "establish", "statistics", "status", "static", "circumstance", "install", "still", "substance", "substantial", "persist", "stem", "contrast", "standpoint", "outstanding", "estate", "state", "statement", "statesman", "constitute", "constitution", "statue", "restore", "store", "steer", "stand", "destination", "destiny", "distance", "obstacle", "standard", "steady", "withstand", "superstition", "arrest", "obstinate", "notwithstanding", "simultaneously", "simultaneous", "for instance", "instance"]]
+        ["sta, sti, sist : 立つ", ["constant", "instantly", "substitute", "institution", "institute", "consist", "consistent", "cost", "restless", "rest", "rest on", "exist", "insist", "resist", "assist", "stable", "establish", "statistics", "status", "static", "circumstance", "install", "still", "substance", "substantial", "persist", "stem", "contrast", "standpoint", "outstanding", "estate", "state", "statement", "statesman", "constitute", "constitution", "statue", "restore", "store", "steer", "stand", "destination", "destiny", "distance", "obstacle", "standard", "steady", "withstand", "superstition", "arrest", "obstinate", "notwithstanding", "simultaneously", "simultaneous", "instance"]]
     ]],
     ["守る・用心する", [
         ["veal, lap : 覆う", ["develop", "envelope", "label", "lap", "reveal", "invest"]],
@@ -11867,14 +11828,8 @@ const etylist = [
         ["sult, sil : 跳ねる", ["result", "insult", "assault", "resilient", "exile"]],
         ["spring : 弾ける", ["offspring", "spring"]]
     ]],
-    ["その他の行動", [
-        ["act, age, iga : 行動", ["act", "activist", "enact", "react", "interaction", "interact", "agency", "agent", "agenda", "exactly", "examine", "ambiguous", "navigate", "navigation", "attitude", "fatigue", "transaction", "transact", "agony"]],
-        ["pract : する", ["practical", "practice"]],
-        ["do : する", ["do", "deed", "indeed"]]
-    ]],
     ["接尾辞", [
         ["ship : 単語を名詞化", ["hardship", "worship", "censorship"]],
-        ["th : 単語を名詞化", ["wealth", "ruthless", "strength", "height", "youth"]],
         ["tude : 単語を名詞化", ["solitude", "solitary", "multitude", "gratitude", "attitude", "latitude", "longitude", "altitude"]]
     ]]
 ]
