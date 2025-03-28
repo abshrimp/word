@@ -444,7 +444,7 @@ table td {
   background: #0096F8;
   border-radius: 3px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 10px 25px;
   height: 6vh;
@@ -455,7 +455,7 @@ table td {
   background: #eee;
   border-radius: 3px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 10px 25px;
   height: 6vh;
